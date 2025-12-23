@@ -1,0 +1,111 @@
+.encabezado {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.imagen-encabezado{
+    width: 10%;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+.menu-navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-navegacion a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu-navegacion a.activo{
+    color: salmon;
+    border-bottom: 3 px solid salmon;
+    padding-bottom: 5px;
+}
+
+/* Estilizado para el main */
+.principal {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+main p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+main video {
+    width: 100%;
+    max-height: 500px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Estilos generales del footer */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Navegación del footer */
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer nav a.activo {
+    color: #f39c12;
+    border-bottom: 2px solid #f39c12;
+}
+
+/* Imagen de propaganda */
+footer .propaganda  {
+    display: flex;
+    justify-content: center;
+}
+
+footer .propaganda img {
+    width: 150px;
+}
+
+footer p {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #555;
+    padding-top: 1rem;
+}
+.descripcion-noticias {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 20px;
+}
